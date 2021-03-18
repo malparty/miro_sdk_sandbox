@@ -43,7 +43,7 @@ miro.onReady(() => {
         title: 'Team Topologies',
         svgIcon: tt_icon,
         onClick: () => {
-          alert("That's a good first step!!!")
+          alert("That's a good first step!!! UPDATED!!!")
         },
       },
     },
