@@ -1,8 +1,5 @@
-
-
-
-miro.onReady(() => {
-  const tt_icon = `<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 339 103" style="enable-background:new 0 0 339 103;" xml:space="preserve">
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 339 103" style="enable-background:new 0 0 339 103;" xml:space="preserve">
 	<style type="text/css">
 		.st0{fill:#1D1D1B;}
 		.st1{fill:#9B79EE;}
@@ -36,16 +33,4 @@ miro.onReady(() => {
 		<path class="st2" d="M40,22.8v5.7h-9.2c-6.7,0-12.1,5.4-12.1,12.1V10.7h9.2C34.6,10.7,40,16.1,40,22.8z" />
 		<path class="st6" d="M66.4,28.5v9.2c0,6.7-6,12.1-13.4,12.1h-7.9v-9.2c0-6.7,6.1-12.1,13.5-12.1H66.4z" />
 	</g>
-</svg>`;
-  miro.initialize({
-    extensionPoints: {
-      bottomBar: {
-        title: 'Team Topologies',
-        svgIcon: tt_icon,
-        onClick: () => {
-          alert("That's a good first step!!!")
-        },
-      },
-    },
-  })
-})
+</svg>
