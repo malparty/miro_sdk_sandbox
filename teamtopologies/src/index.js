@@ -2,7 +2,7 @@
 
 
 miro.onReady(() => {
-  const tt_icon = `<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 339 103" style="enable-background:new 0 0 339 103;" xml:space="preserve">
+  const tt_icon = `<svg version="1.1" id="team_topologies_logo_btn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 339 103" style="enable-background:new 0 0 339 103;" xml:space="preserve">
 	<style type="text/css">
 		.st0{fill:#1D1D1B;}
 		.st1{fill:#9B79EE;}
@@ -43,7 +43,7 @@ miro.onReady(() => {
         title: 'Team Topologies',
         svgIcon: tt_icon,
         onClick: () => {
-          alert("That's a good first step!!! UPDATED!!!")
+          alert("----")
         },
       },
     },
