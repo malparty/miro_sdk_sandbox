@@ -151,7 +151,7 @@ async function checkAllHotspotsLinks(hotspots: SDK.IShapeWidget[]) {
   let hotspotsWithoutLinks = hotspots.slice()
   let linkWithoutScreen
 
-  //пробегаться по хотспотам, а не линкам, чтобы убрать все проверки из goToWidgetFromHotspot
+  //go through hotspots, not links, to remove all checks from goToWidgetFromHotspot 
   lines.forEach((line) => {
     //for startWidgetId
     const linkedHotspot1 = hotspots.find((h) => h.id === line.startWidgetId)
